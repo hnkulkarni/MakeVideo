@@ -1,0 +1,13 @@
+# -------------------------------------------------
+# Author	: Hrushikesh N. Kulkarni
+# Date		: 
+# Description	: Read Me
+# -------------------------------------------------
+
+
+foreach i ( `find /s/parsons/h/proj/vision/usr/hrushi/Experiments/PETS2006/train -name 3 -type d` )
+
+./MakeVideo --folderpath $i
+
+
+end
